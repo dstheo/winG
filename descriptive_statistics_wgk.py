@@ -1,13 +1,12 @@
-# 여론조사 로우 데이터의 기술 통계량 분석, 분포 확인
+# 여론조사 Raw Data의 기술 통계량 분석
 
 # 라이브러리 설치
 import pandas as pd
 import os
-import matplotlib.pyplot as plt
 
 # 경로와 파일명
 data_path = 'data'
-file_name = 'testdata.xlsx'
+file_name = 'sample.xlsx'
 
 # 파일 경로 생성
 full_path = os.path.join(data_path, file_name)
