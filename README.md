@@ -1,8 +1,8 @@
 # winGkorea Consulting Workspace
 
-윈지코리아에서 진행한 데이터 전처리, 통계분석 작업공간입니다.
-<br/>
-<br/>
+윈지코리아에서 진행한 데이터 전처리, 통계분석 작업 공간입니다. <br/>
+회사로 들어오는 Raw Data 기반으로 코딩하였습니다. <br/>
+기술 통계량 분석, 상관분석 가능합니다.
 <br/>
 <br/>
 
@@ -38,11 +38,24 @@ pip install -r requirements.txt
 <br/>
 
 - 주의사항
-    - Windows11에서 작업해보지 않음
+    - Windows 11, MacOS에서 작업해보지 않음
     - Python 버전이 3.7 이상이고 3.10 이하 (matplotlib 충돌)
     - 모든 라이브러리는 최신 버전 사용함 (24.06.12 기준)
 <br/>
-<br/>
 
 ## 2. 주요 기능
-추후 업데이트 예정
+### descriptive_statistics_wgk.py
+- 데이터 불러오기
+- 결측치 확인
+- 기술 통계량 계산
+
+### correlation_analysis_wgk.py
+- 데이터 불러오기
+- 결측치 확인
+- 정규성 검정
+- Pearson, Spearman, Kendall 상관계수 계산
+- 분석 내용 엑셀로 저장
+
+### correlation_analysis_heatmap_wgk.py
+- 데이터 불러오기
+- 상관분석 후 Heatmap 시각화(Pearson, Spearman, Kendall)
