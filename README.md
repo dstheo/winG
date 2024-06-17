@@ -59,3 +59,7 @@ pip install -r requirements.txt
 ### correlation_analysis_heatmap_wgk.py
 - 데이터 불러오기
 - 상관분석 후 Heatmap 시각화(Pearson, Spearman, Kendall)
+
+### correlation_analysis_2columns_wgk.py
+- 데이터 불러오기
+- 2개의 열 공분산, Pearson, Spearman, Kendall 상관계수 계산 후 출력
