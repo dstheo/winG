@@ -63,3 +63,8 @@ pip install -r requirements.txt
 ### correlation_analysis_2columns_wgk.py
 - 데이터 불러오기
 - 2개의 열 공분산, Pearson, Spearman, Kendall 상관계수 계산 후 출력
+
+### regression_analysis_wgk.py
+- 데이터 불러오기
+- X, y 열 지정
+- 독립 변수 1개로 회귀분석 후 출력
