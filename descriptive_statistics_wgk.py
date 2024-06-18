@@ -1,4 +1,4 @@
-# 여론조사 Raw Data의 기술 통계량 분석
+# 여론조사 Raw Data 기술 통계 분석
 
 # 라이브러리 설치
 import pandas as pd
